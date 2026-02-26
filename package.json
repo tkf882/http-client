@@ -1,6 +1,6 @@
 {
-  "name": "http-request-tool",
-  "homepage": "https://tkf882.github.io/http-request-tool/",
+  "name": "http-client",
+  "homepage": "https://tkf882.github.io/http-client/",
   "private": true,
   "version": "0.0.0",
   "type": "module",

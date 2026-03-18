@@ -100,9 +100,14 @@ function App() {
       });
   }
 
+  const initialText:string = `{
+  "variable":123,
+  "aString":"oneTwoThree"
+}`
+
   const requestPOSTHTML = (
     <>
-      <textarea className="post-input" placeholder="Enter JSON data" ref={textAreaRef}></textarea>
+      <textarea className="post-input" placeholder={initialText} ref={textAreaRef}></textarea>
     </>
   )
 
